@@ -53,4 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get 'hello_world' => 'static#hello'
+  # get 'hello_world', to: 'static#hello'
+  get 'about' => 'about'
 end
